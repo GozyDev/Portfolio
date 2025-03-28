@@ -247,7 +247,7 @@
 }
 
 .skill_imagCont img {
-  width: 60px;
+  width: 40px;
 }
 
 .skill_imagCont p {
@@ -256,27 +256,8 @@
 }
 
 
-
-.aboutSkills ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-}
-
-.aboutSkills ul li {
-  font-size: 13px;
-  color: rgb(150, 150, 150);
-  text-transform: capitalize;
-}
-
-.aboutSkills ul li span {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
 .devicon-github-original {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .Project_grid {
