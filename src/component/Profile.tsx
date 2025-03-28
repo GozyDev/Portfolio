@@ -1,0 +1,20 @@
+import MyProfile from '../assets/portpics2.jpg'
+export default function Profile(){
+    return(
+        <>
+        <section className="Profile">
+            <div className='Profile_card'>
+                <img src={MyProfile} alt="" className='prp' />
+                <h1>Henry Gozy</h1>
+                <div id='socials'>
+                <a href="https://x.com/Gozy_Dev" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/HenryGozy"><i className="fa-brands fa-square-github"></i></a>
+                <i className="fa-brands fa-linkedin"></i>
+                </div>
+                <p className='prp_text'>Frontend Developer | Web Application Development | Full Stack Developer</p>
+                <button className='prp_btn'>my resume <i className="fa-solid fa-download"></i></button>
+            </div>
+        </section>
+        </>
+    )
+ }

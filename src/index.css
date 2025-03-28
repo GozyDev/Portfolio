@@ -1,0 +1,111 @@
+* {
+  font-family: 'Poppins', Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding-bottom: 40px;
+}
+
+
+.root {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  width: 1010px;
+  height: max-content;
+  margin: 0 auto;
+  column-gap: 20px;
+}
+
+.root_header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.header {
+  display: flex;
+  width: 1000px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content:space-between;
+  padding: 20px 50px;
+}
+
+.header h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(150,150,150); 
+}
+.pee{
+  font-size: 40px;
+  font-family: "Agu Display", serif;
+}
+.header button {
+  padding: 10px 20px;
+  width: max-content;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.925);
+  background: linear-gradient(30deg, rgba(0, 0, 0, 0.629), rgba(174, 9, 37, 0.629));
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+#giticon{
+  font-size:10px;
+}
+@media (max-width: 480px) {
+
+  /* Updated to 480px */
+  body {
+    padding-top: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header{
+    width: 100%;
+    max-width: 350px;
+    padding: 20px 10px 0px;
+  }
+
+  .header h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(150,150,150); 
+  }
+  .pee{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header button{
+    padding:10px;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+  }
+  .root {
+    width: 100%;
+    max-width: 350px;
+    /* Flexibly handle narrow widths */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .root_header{
+    row-gap: 20px;
+  }
+}
