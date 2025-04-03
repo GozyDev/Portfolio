@@ -55,7 +55,7 @@ export default function Skill() {
           </div>
 
           <div className="skill_card">
-            <h3>React & Next.js</h3>
+            <h3>Version Control</h3>
             <div className="inner_card">
               <SkillsCard
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"

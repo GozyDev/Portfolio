@@ -36,7 +36,7 @@ export default function ShowSkill({
               <div className="code_button">
                   <button>
                     <a href={currentEdit.href} target=".blank">
-                      live code
+                      view on github
                     </a>
                   </button>
                   {currentEdit.livesite && (

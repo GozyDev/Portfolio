@@ -18,7 +18,6 @@ export default function Project() {
   const [currentEdit, setCurrentEdit] = useState<Current>({name:"",img:"",about:"",skills:[],href:"",livesite:""});
   const cardState = ProjectCards.map((item) => ({...item,id: nanoid(),}))
 
-  console.log(cardState);
   function handleClick(id: string | undefined) {
     const data = cardState.find((item) => item.id === id);
     if (data) {
