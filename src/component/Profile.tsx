@@ -1,10 +1,10 @@
-import MyProfile from '../assets/portpics2.jpg'
+//import MyProfile from '../assets/portpics2.jpg'
 export default function Profile(){
     return(
         <>
         <section className="Profile">
             <div className='Profile_card'>
-                <img src={MyProfile} alt="" className='prp' />
+                {/* <img src={MyProfile} alt="" className='prp' /> */}
                 <h1>Henry Gozy</h1>
                 <div id='socials'>
                 <a href="https://x.com/Gozy_Dev" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-x-twitter"></i></a>
